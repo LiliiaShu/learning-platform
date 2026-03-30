@@ -15,6 +15,20 @@
       "when": 1774797614091,
       "tag": "0001_deep_hercules",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1774874780739,
+      "tag": "0002_nostalgic_argent",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1774877504432,
+      "tag": "0003_material_onslaught",
+      "breakpoints": true
     }
   ]
 }
