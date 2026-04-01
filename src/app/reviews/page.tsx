@@ -1,6 +1,7 @@
 import DeleteReviews from "@/components/delete-reviews-btn";
 import { db } from "@/db";
 import { reviewsTable } from "@/db/schema";
+export const dynamic = "force-dynamic";
 
 export default async function Reviews() {
   const reviews = await db.select().from(reviewsTable);

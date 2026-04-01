@@ -1,6 +1,7 @@
 import DeleteGroup from "@/components/delete-group-btn";
 import { db } from "@/db";
 import { groupsTable } from "@/db/schema";
+export const dynamic = "force-dynamic";
 
 export default async function Groups() {
   const groups = await db.select().from(groupsTable);
