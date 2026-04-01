@@ -1,3 +1,4 @@
+import { Providers } from "@/providers/page";
 import Link from "next/link";
 
 export default function ProfileLayout({
@@ -13,7 +14,9 @@ export default function ProfileLayout({
           <Link href={"/profile/my-account"}>Account</Link>
         </nav>
       </aside>
-      <div className="ml-36 p-4">{children}</div>
+      <div className="ml-36 p-4">
+        <Providers>{children}</Providers>
+      </div>
     </div>
   );
 }

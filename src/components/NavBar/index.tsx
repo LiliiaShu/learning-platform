@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AuthButton from "../auth-button";
 
 export default function NavBar() {
   return (
@@ -13,8 +14,9 @@ export default function NavBar() {
       <Link href="/groups/new">Add group</Link>
       <Link href="/reviews">Reviews</Link>
       <Link href="/reviews/new">Add reviews</Link>
-      <Link href="/">Home</Link>
       <Link href="/todos">Todos</Link>
+      <Link href="/">Home</Link>
+      <AuthButton />
     </nav>
   );
 }
