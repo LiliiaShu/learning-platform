@@ -14,6 +14,7 @@ export default function NavBar() {
       <Link href="/reviews">Reviews</Link>
       <Link href="/reviews/new">Add reviews</Link>
       <Link href="/">Home</Link>
+      <Link href="/todos">Todos</Link>
     </nav>
   );
 }
