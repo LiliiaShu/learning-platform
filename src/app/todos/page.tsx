@@ -1,5 +1,6 @@
 import { db } from "@/db";
 import { todos, users } from "@/db/schema";
+export const dynamic = "force-dynamic";
 
 import { eq } from "drizzle-orm";
 import { getServerSession } from "next-auth";

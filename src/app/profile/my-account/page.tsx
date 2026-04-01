@@ -1,5 +1,6 @@
 import { getServerSession } from "next-auth";
 import Image from "next/image";
+export const dynamic = "force-dynamic";
 
 export default async function MyAccount() {
   const session = await getServerSession();
