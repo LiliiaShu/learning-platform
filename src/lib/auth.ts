@@ -64,7 +64,7 @@ export const authOptions = {
       }
 
       const existing = await db.query.users.findFirst({
-        where: (u, { eq }) => eq(user.email, u.email),
+        where: (u, { eq }) => eq(u.email, user.email),
       });
 
       if (!existing) {
