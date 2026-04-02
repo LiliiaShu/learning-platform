@@ -4,11 +4,11 @@ import { ToggleTodoBtn } from "@/components/toggle-todo";
 import { db } from "@/db";
 import { todos, users } from "@/db/schema";
 import { authOptions } from "@/lib/auth/auth-option";
-export const dynamic = "force-dynamic";
-
 import { asc, eq } from "drizzle-orm";
 import { getServerSession } from "next-auth";
 import { notFound, redirect } from "next/navigation";
+export const dynamic = "force-dynamic";
+
 
 export default async function Todos() {
   const session = await getServerSession(authOptions);
