@@ -29,6 +29,20 @@
       "when": 1774877504432,
       "tag": "0003_material_onslaught",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1775086785549,
+      "tag": "0004_fuzzy_stellaris",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1775128404482,
+      "tag": "0005_closed_stellaris",
+      "breakpoints": true
     }
   ]
 }
