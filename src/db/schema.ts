@@ -41,6 +41,17 @@ export const todos = pgTable("todos", {
     .references(() => users.id, { onDelete: "cascade" }),
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });
+
+export const notes = pgTable("notes", {
+  id: integer().primaryKey().generatedAlwaysAsIdentity(),
+  important: boolean().default(false).notNull(),
+  topic: varchar({ length: 255 }).notNull(),
+  content: text().notNull(),
+  userId: integer("user_id")
+    .notNull()
+    .references(() => users.id, { onDelete: "cascade" }),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
 // мы можем сгенерировать файлы с миграциями
 // npx drizzle-kit generate
 // эта команда должна создать SQL файлы, которые мы сможем потом применить

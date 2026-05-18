@@ -43,6 +43,13 @@
       "when": 1775128404482,
       "tag": "0005_closed_stellaris",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1775549162093,
+      "tag": "0006_ordinary_ben_urich",
+      "breakpoints": true
     }
   ]
 }

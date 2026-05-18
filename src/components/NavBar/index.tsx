@@ -15,6 +15,7 @@ export default function NavBar() {
       <Link href="/reviews">Reviews</Link>
       <Link href="/reviews/new">Add reviews</Link>
       <Link href="/todos">Todos</Link>
+      <Link href="/notes">Notes</Link>
       <Link href="/">Home</Link>
       <AuthButton />
     </nav>
